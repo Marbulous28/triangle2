@@ -1,0 +1,11 @@
+#if ($myTriangle.triangleType().equals("Equilateral"))
+  <p><h3>Your triangle is equilateral!</h3></p>
+#elseif ($myTriangle.triangleType().equals("Not A Triangle"))
+  <p><h3>That is not a triangle!</h3></p>
+#elseif ($myTriangle.triangleType().equals("Scalene"))
+  <p><h3>That is a scalene triangle!</h3></p>
+#elseif ($myTriangle.triangleType().equals("Isoceles"))
+  <p><h3>That is an Isoceles triangle!</h3></p>
+#else
+  <p><h3>How did you get here?</h3></p>
+#end
